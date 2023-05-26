@@ -52,7 +52,7 @@ function Item ({position, image, description, onClick}) {
       <div className="flex w-full justify-start items-start flex-col pl-2 space-y-0.5 overflow-hidden">
         <p className="text-base font-bold ml-2 line-clamp-1">{`${position}º Premio!`}</p>
         <div className='m-2'>
-          <p class="line-clamp-3 mt-1 text-sm leading-6 text-left">{description}</p>
+          <p className="line-clamp-3 mt-1 text-sm leading-6 text-left">{description}</p>
         </div>
       </div>
     </div>
